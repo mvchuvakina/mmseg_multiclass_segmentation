@@ -38,8 +38,6 @@
 ├── src/
 │ ├── data/
 │ ├── analysis/
-│ ├── experiments/
-│ └── utils/
 ├── supplementary/
 │ └── viz/
 ├── configs/
