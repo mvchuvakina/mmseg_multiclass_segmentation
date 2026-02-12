@@ -1,0 +1,10 @@
+TRAIN samples: 200
+VAL samples: 120
+TEST samples: 120
+
+Classes: [0, 1, 2]
+
+Empty masks: 0
+Single class masks: 200
+
+Image sizes: 256x256 - 256x256
