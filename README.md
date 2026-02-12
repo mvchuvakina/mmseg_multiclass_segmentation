@@ -103,7 +103,7 @@ A.Compose([
     ToTensorV2(),
 ])
 
-ClearML эксперимент: https://app.clear.ml/projects/0e0b149e763b4360a236b92946d3452e/experiments/61113e663abf4d079860fa27dcba42fd/output/log
+ClearML эксперимент: https://app.clear.ml/projects/0e0b149e763b4360a236b92946d3452e/experiments/3d1ba3e9b4ce4989b39e2a5a9bac31cd/output/execution
 
 Конфиг: https://github.com/mvchuvakina/mmseg_multiclass_segmentation/configs/deeplabv3plus_best.json
 
@@ -139,7 +139,7 @@ A.Compose([
 ])
 **Результаты обучения**
 
-ClearML эксперимент: https://app.clear.ml/projects/8f224484f2c3459f8dd0fd9b0a5ad0e5/experiments/f82c9277b13248bc88dc671394fb99f8/output/log
+ClearML эксперимент: https://app.clear.ml/projects/0e0b149e763b4360a236b92946d3452e/experiments/61113e663abf4d079860fa27dcba42fd/output/execution
 
 Конфиг: https://github.com/mvchuvakina/mmseg_multiclass_segmentation/configs/deeplabv3plus_best.json
 
@@ -247,7 +247,7 @@ eda_results/	Графики и статистика исследовательс
 | Dice класс 1 | 0.8321 | 0.7883 |
 | Dice класс 2 | 0.8403 | 0.7924 |
 
-🔗 **ClearML эксперимент:** [https://app.clear.ml/projects/0e0b149e763b4360a236b92946d3452e/experiments/13aac828d47341348b8acc91c9224b34/output/log](https://app.clear.ml/projects/0e0b149e763b4360a236b92946d3452e/experiments/13aac828d47341348b8acc91c9224b34/output/log)
+🔗 **ClearML эксперимент:** https://app.clear.ml/projects/0e0b149e763b4360a236b92946d3452e/experiments/61113e663abf4d079860fa27dcba42fd/output/execution
 
 🔗 **Конфиг:** `practicum_work/configs/deeplabv3plus_best.json`
 
