@@ -1,0 +1,75 @@
+{
+    "experiment_name": "U-Net Advanced Augmentations",
+    "model": {
+        "architecture": "U-Net",
+        "encoder": "resnet34",
+        "encoder_weights": "imagenet",
+        "classes": 3,
+        "activation": null
+    },
+    "loss": {
+        "name": "CrossEntropyLoss",
+        "class_weights": [
+            0.1,
+            1.2,
+            1.2
+        ]
+    },
+    "optimizer": {
+        "name": "AdamW",
+        "lr": 0.0002,
+        "weight_decay": 0.0001
+    },
+    "training": {
+        "batch_size": 8,
+        "epochs": 30,
+        "best_epoch": 24,
+        "image_size": [
+            256,
+            256
+        ]
+    },
+    "augmentations": {
+        "HorizontalFlip": {
+            "p": 0.5
+        },
+        "VerticalFlip": {
+            "p": 0.3
+        },
+        "Rotate": {
+            "limit": 45,
+            "p": 0.5
+        },
+        "RandomBrightnessContrast": {
+            "brightness_limit": 0.2,
+            "contrast_limit": 0.2,
+            "p": 0.3
+        },
+        "GaussNoise": {
+            "var_limit": [
+                10.0,
+                50.0
+            ],
+            "p": 0.2
+        },
+        "Normalize": {
+            "mean": [
+                0.485,
+                0.456,
+                0.406
+            ],
+            "std": [
+                0.229,
+                0.224,
+                0.225
+            ]
+        }
+    },
+    "results": {
+        "val_mdice": 0.7852,
+        "test_mdice": 0.7485,
+        "best_epoch": 24
+    },
+    "clearml_task_id": "61113e663abf4d079860fa27dcba42fd",
+    "date": "2026-02-12 09:09:05"
+}
